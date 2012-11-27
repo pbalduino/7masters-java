@@ -56,10 +56,64 @@
 </section>
 
 <section class="slide">
+	<h2>Expressivo</h2>
+	<pre>
+		<code>
+(describe "North"
+(context "using context"
+  (it "should test simple assertions"
+    (should (= 1 1) be-true)
+    (should (= 1 1) be-true)
+    (should (= 1 0) be-false)
+    (should (+ 1 1) be-equals 2)
+    (should (+ 1 1) be-not-equals 1))))
+  	</code>
+  </pre>
+</section>
+<section class="slide">
 	<h2>Quem usa?</h2>
 	<h3>Heroku</h3>
 	<h3>BackType (Twitter)</h3>
+	<h3>Prismatic</h3>
 	<h3>http://www.quora.com/Whos-using-Clojure-in-production</h3>
+</section>
+
+<section class="slide">
+	<h2>Onde usar</h2>
+	<h3>Heroku</h3>
+	<h3>Immutant - Red Hat</h3>
+	<img src="images/immutant.png" class="slide">
+</section>
+
+<section class="slide">
+	<h2>Quem usa?</h2>
+	<h3>Minha equipe</h3>
+	<h4>Proxy</h4>
+	<h4>200 aparelhos</h4>
+	<h4>País inteiro</h4>
+</section>
+
+<section class="slide">
+	<h2>Antes</h2>
+	<h3>Java</h3>
+	<h3>Guice</h3>
+	<h3>AutoFabrik</h3>
+</section>
+
+<section class="slide">
+	<h2>Antes</h2>
+	<h3>400 linhas de bootstrap</h3>
+	<h3>Dispatcher com 1200 linhas</h3>
+	<h3>Testes funcionais e de integração</h3>
+	<h3>Praticamente sem testes unitários</h3>
+</section>
+
+<section class="slide">
+	<h2>Depois</h2>
+	<h3>800 linhas de aplicação</h3>
+	<h3>Cada seviço virou uma função</h3>
+	<h3>Os mesmos testes funcionais e de integração</h3>
+	<h3>Agora com testes unitários</h3>
 </section>
 
 <section class="slide">
