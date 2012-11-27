@@ -19,10 +19,10 @@
 	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
 
 	<!-- Style theme. More available in /themes/style/ or create your own. -->
-	<link rel="stylesheet" href="themes/style/web-2.0.css">
+	<link rel="stylesheet" href="themes/style/swiss.css">
 	
 	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
-	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
+	<link rel="stylesheet" href="themes/transition/fade.css">
 	
 	<!-- Required Modernizr file -->
 	<script src="modernizr.custom.js"></script>
@@ -32,15 +32,31 @@
 <!-- Begin slides. Just make elements with a class of slide. -->
 
 <section class="slide">
-	<h1>Slide</h1>
+	<h1>Clojure no mundo real</h1>
 </section>
 
 <section class="slide">
-	<h1>Content</h1>
+	<h2>7masters</h2>
+	<img src="images/imasters.png">
+	<h3>27/11/2012</h3>
 </section>
 
 <section class="slide">
-	<h1>Here</h1>
+	<h2>O que é Clojure</h2>
+	<ul>
+		<li>Clojure é um LISP que gera bytecode JVM</li>
+		<li>Totalmente compatível com Java</li>
+		<li>O bytecode de um pode ser usado com o outro</li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Programação funcional</h2>
+	<ul>
+		<li>Imutabilidade</li>
+		<li>Multithread fica muito mais simples</li>
+		<li>Acredite ou não, é bem expressivo e fácil de ler</li>
+	</ul>
 </section>
 
 <!-- End slides. -->
@@ -78,13 +94,13 @@
 <script src="core/deck.core.js"></script>
 
 <!-- Extension JS files. Add or remove as needed. -->
-<script src="../core/deck.core.js"></script>
-<script src="../extensions/hash/deck.hash.js"></script>
-<script src="../extensions/menu/deck.menu.js"></script>
-<script src="../extensions/goto/deck.goto.js"></script>
-<script src="../extensions/status/deck.status.js"></script>
-<script src="../extensions/navigation/deck.navigation.js"></script>
-<script src="../extensions/scale/deck.scale.js"></script>
+<script src="core/deck.core.js"></script>
+<script src="extensions/hash/deck.hash.js"></script>
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
 
 <!-- Initialize the deck. You can put this in an external file if desired. -->
 <script>
